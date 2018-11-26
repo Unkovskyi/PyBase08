@@ -1,0 +1,48 @@
+#Task 3
+
+int_number1=int(input('input integer number 1:  '))
+print('------------------')
+
+print('integer1: ',int_number1)
+float_number1=float(int_number1)
+print('float1: ',float_number1)
+bool_number1=bool(int_number1)
+print('bool1: ',bool_number1)
+str_number1=str(int_number1)
+print('str1: ',str_number1)
+print('                 ')
+
+int_number2=int(input('input integer number 2:  '))
+float_number2=float(int_number2)
+bool_number2=bool(int_number2)
+str_number2=str(int_number2)
+
+#+
+print('--------Addition--------')
+print('integer2+integer1: ',int_number2+int_number1)
+float_number2=float(int_number2)
+print('float2+integer1: ',float_number2+int_number1)
+bool_number2=bool(int_number2)
+print('bool2+integer1: ',bool_number2+int_number1)
+float_number2=float(int_number2)
+print('float2+float1: ',float_number2+float_number1)
+bool_number2=bool(int_number2)
+print('bool2+float1: ',bool_number2+float_number1)
+bool_number2=bool(int_number2)
+print('bool2+bool1: ',bool_number2+bool_number1)
+str_number2=str(int_number2)
+print('str2+str1: ',str_number2+str_number1)
+
+#*
+print('------Multiplication------')
+print('integer2*integer1: ',int_number2*int_number1)
+float_number2=float(int_number2)
+print('float2*integer1: ',float_number2*int_number1)
+bool_number2=bool(int_number2)
+print('bool2*integer1: ',bool_number2*int_number1)
+float_number2=float(int_number2)
+print('float2*float1: ',float_number2*float_number1)
+bool_number2=bool(int_number2)
+print('bool2*float1: ',bool_number2*float_number1)
+bool_number2=bool(int_number2)
+print('bool2*bool1: ',bool_number2*bool_number1)
